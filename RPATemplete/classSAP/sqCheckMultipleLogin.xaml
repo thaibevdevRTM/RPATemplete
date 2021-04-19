@@ -1,0 +1,122 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="sqCheckMultipleLogin" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1240,980.8" sap2010:WorkflowViewState.IdRef="sqCheckMultipleLogin_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="sqCheckMultipleLogin" sap:VirtualizedContainerService.HintSize="550.4,876" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" Window="{x:Null}" ContinueOnError="True" DisplayName="Attach Window 'saplogon.exe  SAP'" sap:VirtualizedContainerService.HintSize="508.8,783.2" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="7b77726cf8cafeb0dba588b54fb36da1" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='SAP' /&gt;" TimeoutMS="2000">
+      <ui:WindowScope.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="475.2,636" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" Window="{x:Null}" ContinueOnError="True" DisplayName="Attach Window 'saplogon.exe License'" sap:VirtualizedContainerService.HintSize="433.6,543.2" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="68a180133bd81082e8af62f086c23080" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='License Information for Multiple Logon' idx='*' /&gt;" TimeoutMS="2000">
+              <ui:WindowScope.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,396" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:ClickImage DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="Click Image 'saplogon.exe License'" sap:VirtualizedContainerService.HintSize="333.6,156" sap2010:WorkflowViewState.IdRef="ClickImage_2" KeyModifiers="None" MouseButton="BTN_LEFT">
+                      <ui:ClickImage.CursorPosition>
+                        <ui:CursorPosition Position="Center">
+                          <ui:CursorPosition.OffsetX>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetX>
+                          <ui:CursorPosition.OffsetY>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetY>
+                        </ui:CursorPosition>
+                      </ui:ClickImage.CursorPosition>
+                      <ui:ClickImage.Image>
+                        <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.25" Profile="Basic" TargetImageBase64="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" />
+                      </ui:ClickImage.Image>
+                      <ui:ClickImage.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="af50afe0-e804-460c-a6b1-fee21d2f6a38" TimeoutMS="2000" WaitForReady="COMPLETE" />
+                      </ui:ClickImage.Target>
+                    </ui:ClickImage>
+                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+                      <ui:Click.CursorPosition>
+                        <ui:CursorPosition Position="Center">
+                          <ui:CursorPosition.OffsetX>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetX>
+                          <ui:CursorPosition.OffsetY>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetY>
+                        </ui:CursorPosition>
+                      </ui:Click.CursorPosition>
+                      <ui:Click.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8fa37c0c-4612-470d-a6ea-918a345a8fec" InformativeScreenshot="663ab1aba5247e87aefd32501c05f3e5" Selector="&lt;wnd ctrlid='400' title='AppToolbar' /&gt;&lt;wnd ctrlid='111' /&gt;" TimeoutMS="2000" WaitForReady="COMPLETE" />
+                      </ui:Click.Target>
+                    </ui:Click>
+                  </Sequence>
+                </ActivityAction>
+              </ui:WindowScope.Body>
+            </ui:WindowScope>
+          </Sequence>
+        </ActivityAction>
+      </ui:WindowScope.Body>
+    </ui:WindowScope>
+  </Sequence>
+</Activity>
