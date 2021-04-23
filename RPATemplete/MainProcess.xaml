@@ -92,11 +92,7 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="864,1219.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:Boolean" Name="isError">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:Boolean" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:Boolean" Default="False" Name="isError" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtMain" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtConfig" />
       <Variable x:TypeArguments="x:String" Name="sBankCompID" />
@@ -122,7 +118,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
                 <av:Size x:Key="ShapeSize">60,75.2</av:Size>
-                <av:PointCollection x:Key="ConnectorLocation">300,77.7 300,115.6</av:PointCollection>
+                <av:PointCollection x:Key="ConnectorLocation">300,77.7 300,105.6</av:PointCollection>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 <x:Double x:Key="Height">765.6</x:Double>
                 <x:Double x:Key="Width">710.40000000000009</x:Double>
@@ -134,12 +130,12 @@
             <FlowStep x:Name="__ReferenceID7">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <av:Point x:Key="ShapeLocation">200,115.6</av:Point>
+                  <av:Point x:Key="ShapeLocation">200,105.6</av:Point>
                   <av:Size x:Key="ShapeSize">200,68.8</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">300,184.4 300,206.4</av:PointCollection>
+                  <av:PointCollection x:Key="ConnectorLocation">300,174.4 300,206.4</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Initial State" sap:VirtualizedContainerService.HintSize="478.4,539.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <Sequence DisplayName="Initial State" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_7">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -154,7 +150,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <ui:BuildDataTable DataTable="[dtMain]" DisplayName="Build Data Table dtMain" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;DocDate&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;DeliveryRef&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BillingDoc&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;PrintStatus&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;PayerName&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Remark&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
-                      <Sequence DisplayName="SAP(Open,Login)" sap:VirtualizedContainerService.HintSize="375.2,513.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                      <Sequence DisplayName="SAP(Open,Login)" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="Sequence_14">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -168,15 +164,9 @@
                         </ui:InvokeWorkflowFile>
                         <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke fcLogin workflow" sap:VirtualizedContainerService.HintSize="333.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="classSAP\fcLogin.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="rtnUserName">
-                              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="strSAPUser" />
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="rtnUserPass">
-                              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="strSAPPassword" />
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:Boolean" x:Key="isDevelop">
-                              <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="isDev" />
-                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="rtnUserName">[strSAPUser]</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="rtnUserPass">[strSAPPassword]</InArgument>
+                            <InArgument x:TypeArguments="x:Boolean" x:Key="isDevelop">[isDev]</InArgument>
                           </ui:InvokeWorkflowFile.Arguments>
                         </ui:InvokeWorkflowFile>
                         <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke sqCheckMultipleLogin workflow" sap:VirtualizedContainerService.HintSize="333.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="classSAP\sqCheckMultipleLogin.xaml">
