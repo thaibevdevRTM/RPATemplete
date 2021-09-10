@@ -3,7 +3,7 @@
   "description": "RPATemplete",
   "main": "Main.xaml",
   "dependencies": {
-    "RPAOACLibrary": "[1.0.13]",
+    "RPAOACLibrary": "[1.0.21]",
     "UiPath.Excel.Activities": "[2.9.5]",
     "UiPath.Mail.Activities": "[1.10.4]",
     "UiPath.System.Activities": "[20.10.4]",
