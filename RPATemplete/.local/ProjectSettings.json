@@ -1,1 +1,1 @@
-{"OpenedDocuments":"[\"Process.xaml\"]","ProjectBreakpoints":"{\"Value\":{}}","ProjectWatches":"{\"Value\":[]}"}
+{"OpenedDocuments":"[\"Framework/CloseAllApplications.xaml\",\"Framework/KillAllProcesses.xaml\",\"Framework/InitAllApplications.xaml\",\"Framework/InitAllSettings.xaml\",\"Framework/GetTransactionData.xaml\",\"Framework/SetTransactionStatus.xaml\",\"Main.xaml\",\"Process.xaml\"]","ProjectBreakpoints":"{\"Value\":{}}","ProjectWatches":"{\"Value\":[{\"Id\":\"26bbe167-5a6b-4f1e-93ec-eeabb21014c4\",\"Expression\":\"listMail IsNot Nothing\"}]}"}

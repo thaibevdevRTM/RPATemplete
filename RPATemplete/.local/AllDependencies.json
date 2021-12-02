@@ -647,7 +647,7 @@
           "lib/net40/BouncyCastle.Crypto.dll": {}
         }
       },
-      "RPAOACLibrary/1.0.21": {
+      "RPAOACLibrary/1.0.23": {
         "type": "package",
         "dependencies": {
           "LanguageChange": "1.0.1",
@@ -661,14 +661,15 @@
         },
         "runtime": {
           "lib/net45/RPAOACLibrary.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_1887297.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_19082466.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_19953322.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_22304830.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_27889738.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_29139738.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_30283360.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_35088115.dll": {}
+          "lib/net45/RPAOACLibrary_Expressions_10718788.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_12333053.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_17214779.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_20211498.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_20392379.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_4887353.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_51754421.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_63612956.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_7890814.dll": {}
         }
       },
       "SharpZipLib/1.2.0": {
@@ -2339,7 +2340,7 @@
           "lib/net40/BouncyCastle.Crypto.dll": {}
         }
       },
-      "RPAOACLibrary/1.0.21": {
+      "RPAOACLibrary/1.0.23": {
         "type": "package",
         "dependencies": {
           "LanguageChange": "1.0.1",
@@ -2353,14 +2354,15 @@
         },
         "runtime": {
           "lib/net45/RPAOACLibrary.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_1887297.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_19082466.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_19953322.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_22304830.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_27889738.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_29139738.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_30283360.dll": {},
-          "lib/net45/RPAOACLibrary_Expressions_35088115.dll": {}
+          "lib/net45/RPAOACLibrary_Expressions_10718788.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_12333053.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_17214779.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_20211498.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_20392379.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_4887353.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_51754421.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_63612956.dll": {},
+          "lib/net45/RPAOACLibrary_Expressions_7890814.dll": {}
         }
       },
       "SharpZipLib/1.2.0": {
@@ -4296,12 +4298,13 @@
         "portable.bouncycastle.nuspec"
       ]
     },
-    "RPAOACLibrary/1.0.21": {
-      "sha512": "yqzSUl1O068hS1+iaI9QM/zdkSUfs+EWTdujqsQdK6ZVZyiIXfSEdnwWTksnZp1yqQ77zVJJ1qhRQ3sTi+SCNA==",
+    "RPAOACLibrary/1.0.23": {
+      "sha512": "PT2e6AP6MUGPKFEjYhroIzwuh65yzl0OasyxGEaUpVQb3pEFUGM7IRBDq6z0a+rQn4T8wl+AWB3OFGdS8p1H8Q==",
       "type": "package",
-      "path": "rpaoaclibrary/1.0.21",
+      "path": "rpaoaclibrary/1.0.23",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net45/.settings/Release/settings-1a5b880a.json",
         "lib/net45/.settings/Release/settings-5190454b.json",
         "lib/net45/.settings/Release/settings-590bb27b.json",
@@ -4309,16 +4312,17 @@
         "lib/net45/.settings/Release/settings-a1b2dac1.json",
         "lib/net45/.settings/Release/settings-afad0842.json",
         "lib/net45/RPAOACLibrary.dll",
-        "lib/net45/RPAOACLibrary_Expressions_1887297.dll",
-        "lib/net45/RPAOACLibrary_Expressions_19082466.dll",
-        "lib/net45/RPAOACLibrary_Expressions_19953322.dll",
-        "lib/net45/RPAOACLibrary_Expressions_22304830.dll",
-        "lib/net45/RPAOACLibrary_Expressions_27889738.dll",
-        "lib/net45/RPAOACLibrary_Expressions_29139738.dll",
-        "lib/net45/RPAOACLibrary_Expressions_30283360.dll",
-        "lib/net45/RPAOACLibrary_Expressions_35088115.dll",
+        "lib/net45/RPAOACLibrary_Expressions_10718788.dll",
+        "lib/net45/RPAOACLibrary_Expressions_12333053.dll",
+        "lib/net45/RPAOACLibrary_Expressions_17214779.dll",
+        "lib/net45/RPAOACLibrary_Expressions_20211498.dll",
+        "lib/net45/RPAOACLibrary_Expressions_20392379.dll",
+        "lib/net45/RPAOACLibrary_Expressions_4887353.dll",
+        "lib/net45/RPAOACLibrary_Expressions_51754421.dll",
+        "lib/net45/RPAOACLibrary_Expressions_63612956.dll",
+        "lib/net45/RPAOACLibrary_Expressions_7890814.dll",
         "lib/net45/project.json",
-        "rpaoaclibrary.1.0.21.nupkg.sha512",
+        "rpaoaclibrary.1.0.23.nupkg.sha512",
         "rpaoaclibrary.nuspec"
       ]
     },
@@ -5378,7 +5382,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "RPAOACLibrary >= 1.0.21 <= 1.0.21",
+      "RPAOACLibrary >= 1.0.23 <= 1.0.23",
       "UiPath.Excel.Activities >= 2.9.5 <= 2.9.5",
       "UiPath.Mail.Activities >= 1.10.4 <= 1.10.4",
       "UiPath.System.Activities >= 20.10.4 <= 20.10.4",
@@ -5402,7 +5406,7 @@
           "RPAOACLibrary": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.0.21, 1.0.21]"
+            "version": "[1.0.23, 1.0.23]"
           },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
