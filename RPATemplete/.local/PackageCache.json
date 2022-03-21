@@ -56,7 +56,7 @@
         "C:\\Users\\11035585\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\mimekit/2.10.0\\lib/net46/MimeKit.dll",
-        "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\nlog/4.5.11\\lib/net45/NLog.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
@@ -185,7 +185,7 @@
         "C:\\Users\\11035585\\.nuget\\packages\\microsoft.extensions.filesystemglobbing/5.0.0\\lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\microsoft.identity.client/4.14.0\\lib/net45/Microsoft.Identity.Client.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\mimekit/2.10.0\\lib/net46/MimeKit.dll",
-        "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\portable.bouncycastle/1.8.8\\lib/net40/BouncyCastle.Crypto.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
@@ -223,7 +223,7 @@
         "C:\\Users\\11035585\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
@@ -269,7 +269,7 @@
         "C:\\Users\\11035585\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.Toolkit.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
-        "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\nlog/4.5.11\\lib/net45/NLog.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\system.collections.immutable/1.5.0\\lib/netstandard2.0/System.Collections.Immutable.dll",
         "C:\\Users\\11035585\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
@@ -312,6 +312,23 @@
         "C:\\Users\\11035585\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\11035585\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.SAP.BAPI.Activities",
+        "Version": "2.2.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\11035585\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\system.threading.tasks.dataflow/4.10.0\\lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\uipath.sap.bapi.activities/2.2.5\\lib/net461/UiPath.SAP.BAPI.Activities.Design.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\uipath.sap.bapi.activities/2.2.5\\lib/net461/UiPath.SAP.BAPI.Activities.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\uipath.sap.bapi.activities/2.2.5\\lib/net461/UiPath.SAP.BAPI.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\uipath.telemetry.client/1.2.20\\lib/net461/TelemetryClient.dll"
+      ],
+      "Path": "C:\\Users\\11035585\\.nuget\\packages\\uipath.sap.bapi.activities\\2.2.5"
     }
   ],
   "Conflicts": [],
@@ -789,7 +806,7 @@
     },
     "Newtonsoft.Json": {
       "Id": "Newtonsoft.Json",
-      "Version": "11.0.2",
+      "Version": "12.0.3",
       "Dependencies": []
     },
     "NLog": {
@@ -1119,6 +1136,28 @@
         {
           "Item1": "System.ValueTuple",
           "Item2": "[4.5.0, )"
+        }
+      ]
+    },
+    "UiPath.SAP.BAPI.Activities": {
+      "Id": "UiPath.SAP.BAPI.Activities",
+      "Version": "2.2.5",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[12.0.3, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.2.20, )"
+        },
+        {
+          "Item1": "ClosedXML",
+          "Item2": "[0.87.1, )"
+        },
+        {
+          "Item1": "DocumentFormat.OpenXml",
+          "Item2": "[2.5.0, )"
         }
       ]
     },
@@ -1687,12 +1726,12 @@
     {
       "Package": {
         "Id": "Newtonsoft.Json",
-        "Version": "11.0.2"
+        "Version": "12.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib\\net45\\Newtonsoft.Json.dll"
+        "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json\\12.0.3\\lib\\net45\\Newtonsoft.Json.dll"
       ],
-      "Path": "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json\\11.0.2"
+      "Path": "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json\\12.0.3"
     },
     {
       "Package": {
@@ -1971,6 +2010,18 @@
         "C:\\Users\\11035585\\.nuget\\packages\\uipath.platform\\20.10.4\\lib\\net461\\UiPath.Platform.dll"
       ],
       "Path": "C:\\Users\\11035585\\.nuget\\packages\\uipath.platform\\20.10.4"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.SAP.BAPI.Activities",
+        "Version": "2.2.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\11035585\\.nuget\\packages\\uipath.sap.bapi.activities\\2.2.5\\lib\\net461\\UiPath.SAP.BAPI.Activities.Design.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\uipath.sap.bapi.activities\\2.2.5\\lib\\net461\\UiPath.SAP.BAPI.Activities.dll",
+        "C:\\Users\\11035585\\.nuget\\packages\\uipath.sap.bapi.activities\\2.2.5\\lib\\net461\\UiPath.SAP.BAPI.dll"
+      ],
+      "Path": "C:\\Users\\11035585\\.nuget\\packages\\uipath.sap.bapi.activities\\2.2.5"
     },
     {
       "Package": {
