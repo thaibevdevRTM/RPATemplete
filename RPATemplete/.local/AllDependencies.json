@@ -593,7 +593,7 @@
           "lib/net46/MimeKit.dll": {}
         }
       },
-      "Newtonsoft.Json/12.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/_._": {}
@@ -1252,124 +1252,6 @@
         },
         "runtime": {
           "lib/net461/UiPath.Platform.dll": {}
-        }
-      },
-      "UiPath.SAP.BAPI.Activities/2.2.5": {
-        "type": "package",
-        "dependencies": {
-          "ClosedXML": "0.87.1",
-          "DocumentFormat.OpenXml": "2.5.0",
-          "Newtonsoft.Json": "12.0.3",
-          "UiPath.Telemetry.Client": "1.2.20"
-        },
-        "compile": {
-          "lib/net461/_._": {}
-        },
-        "runtime": {
-          "lib/net461/UiPath.SAP.BAPI.Activities.Design.dll": {},
-          "lib/net461/UiPath.SAP.BAPI.Activities.dll": {},
-          "lib/net461/UiPath.SAP.BAPI.dll": {}
-        },
-        "resource": {
-          "lib/net461/de/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net461/de/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net461/de/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net461/es-MX/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net461/es-MX/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net461/es-MX/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net461/es/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net461/es/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net461/es/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net461/fr/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net461/fr/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net461/fr/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net461/ja/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net461/ja/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net461/ja/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net461/ko/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net461/ko/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net461/ko/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net461/pt-BR/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net461/pt-BR/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net461/pt-BR/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net461/pt/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net461/pt/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net461/pt/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net461/ru/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net461/ru/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net461/ru/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net461/tr/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net461/tr/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net461/tr/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net461/zh-CN/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net461/zh-CN/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net461/zh-CN/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "zh-CN"
-          }
         }
       },
       "UiPath.System.Activities/20.10.4": {
@@ -2403,7 +2285,7 @@
           "lib/net46/MimeKit.dll": {}
         }
       },
-      "Newtonsoft.Json/12.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/_._": {}
@@ -3062,124 +2944,6 @@
         },
         "runtime": {
           "lib/net461/UiPath.Platform.dll": {}
-        }
-      },
-      "UiPath.SAP.BAPI.Activities/2.2.5": {
-        "type": "package",
-        "dependencies": {
-          "ClosedXML": "0.87.1",
-          "DocumentFormat.OpenXml": "2.5.0",
-          "Newtonsoft.Json": "12.0.3",
-          "UiPath.Telemetry.Client": "1.2.20"
-        },
-        "compile": {
-          "lib/net461/_._": {}
-        },
-        "runtime": {
-          "lib/net461/UiPath.SAP.BAPI.Activities.Design.dll": {},
-          "lib/net461/UiPath.SAP.BAPI.Activities.dll": {},
-          "lib/net461/UiPath.SAP.BAPI.dll": {}
-        },
-        "resource": {
-          "lib/net461/de/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net461/de/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net461/de/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net461/es-MX/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net461/es-MX/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net461/es-MX/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "es-MX"
-          },
-          "lib/net461/es/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net461/es/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net461/es/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net461/fr/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net461/fr/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net461/fr/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net461/ja/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net461/ja/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net461/ja/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net461/ko/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net461/ko/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net461/ko/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net461/pt-BR/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net461/pt-BR/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net461/pt-BR/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net461/pt/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net461/pt/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net461/pt/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/net461/ru/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net461/ru/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net461/ru/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net461/tr/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net461/tr/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net461/tr/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net461/zh-CN/UiPath.SAP.BAPI.Activities.Design.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net461/zh-CN/UiPath.SAP.BAPI.Activities.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net461/zh-CN/UiPath.SAP.BAPI.resources.dll": {
-            "locale": "zh-CN"
-          }
         }
       },
       "UiPath.System.Activities/20.10.4": {
@@ -4422,13 +4186,12 @@
         "mimekit.nuspec"
       ]
     },
-    "Newtonsoft.Json/12.0.3": {
-      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package",
-      "path": "newtonsoft.json/12.0.3",
+      "path": "newtonsoft.json/11.0.2",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -4448,9 +4211,8 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "NLog/4.5.11": {
@@ -5286,53 +5048,6 @@
         "uipath.platform.nuspec"
       ]
     },
-    "UiPath.SAP.BAPI.Activities/2.2.5": {
-      "sha512": "L+BGn1sxunac+2qdo8Y0NUAszECQbjUja2T7U/iJ4Zp3qh87UOcyxZC1NCzcyM77YhF9lWe8s9k3hBkbi0OyOg==",
-      "type": "package",
-      "path": "uipath.sap.bapi.activities/2.2.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net461/UiPath.SAP.BAPI.Activities.Design.dll",
-        "lib/net461/UiPath.SAP.BAPI.Activities.dll",
-        "lib/net461/UiPath.SAP.BAPI.dll",
-        "lib/net461/de/UiPath.SAP.BAPI.Activities.Design.resources.dll",
-        "lib/net461/de/UiPath.SAP.BAPI.Activities.resources.dll",
-        "lib/net461/de/UiPath.SAP.BAPI.resources.dll",
-        "lib/net461/es-MX/UiPath.SAP.BAPI.Activities.Design.resources.dll",
-        "lib/net461/es-MX/UiPath.SAP.BAPI.Activities.resources.dll",
-        "lib/net461/es-MX/UiPath.SAP.BAPI.resources.dll",
-        "lib/net461/es/UiPath.SAP.BAPI.Activities.Design.resources.dll",
-        "lib/net461/es/UiPath.SAP.BAPI.Activities.resources.dll",
-        "lib/net461/es/UiPath.SAP.BAPI.resources.dll",
-        "lib/net461/fr/UiPath.SAP.BAPI.Activities.Design.resources.dll",
-        "lib/net461/fr/UiPath.SAP.BAPI.Activities.resources.dll",
-        "lib/net461/fr/UiPath.SAP.BAPI.resources.dll",
-        "lib/net461/ja/UiPath.SAP.BAPI.Activities.Design.resources.dll",
-        "lib/net461/ja/UiPath.SAP.BAPI.Activities.resources.dll",
-        "lib/net461/ja/UiPath.SAP.BAPI.resources.dll",
-        "lib/net461/ko/UiPath.SAP.BAPI.Activities.Design.resources.dll",
-        "lib/net461/ko/UiPath.SAP.BAPI.Activities.resources.dll",
-        "lib/net461/ko/UiPath.SAP.BAPI.resources.dll",
-        "lib/net461/pt-BR/UiPath.SAP.BAPI.Activities.Design.resources.dll",
-        "lib/net461/pt-BR/UiPath.SAP.BAPI.Activities.resources.dll",
-        "lib/net461/pt-BR/UiPath.SAP.BAPI.resources.dll",
-        "lib/net461/pt/UiPath.SAP.BAPI.Activities.Design.resources.dll",
-        "lib/net461/pt/UiPath.SAP.BAPI.Activities.resources.dll",
-        "lib/net461/pt/UiPath.SAP.BAPI.resources.dll",
-        "lib/net461/ru/UiPath.SAP.BAPI.Activities.Design.resources.dll",
-        "lib/net461/ru/UiPath.SAP.BAPI.Activities.resources.dll",
-        "lib/net461/ru/UiPath.SAP.BAPI.resources.dll",
-        "lib/net461/tr/UiPath.SAP.BAPI.Activities.Design.resources.dll",
-        "lib/net461/tr/UiPath.SAP.BAPI.Activities.resources.dll",
-        "lib/net461/tr/UiPath.SAP.BAPI.resources.dll",
-        "lib/net461/zh-CN/UiPath.SAP.BAPI.Activities.Design.resources.dll",
-        "lib/net461/zh-CN/UiPath.SAP.BAPI.Activities.resources.dll",
-        "lib/net461/zh-CN/UiPath.SAP.BAPI.resources.dll",
-        "uipath.sap.bapi.activities.2.2.5.nupkg.sha512",
-        "uipath.sap.bapi.activities.nuspec"
-      ]
-    },
     "UiPath.System.Activities/20.10.4": {
       "sha512": "lIA1dQkBmO27z+4BbDgVb/wNyhhCzwT86VcxIBIuVypS7hAialEQ6r/ia0wLCUVMUyVwzcTUu8+WKiodfbOD9w==",
       "type": "package",
@@ -5666,7 +5381,6 @@
       "RPAOACLibrary >= 1.0.21 <= 1.0.21",
       "UiPath.Excel.Activities >= 2.9.5 <= 2.9.5",
       "UiPath.Mail.Activities >= 1.10.4 <= 1.10.4",
-      "UiPath.SAP.BAPI.Activities >= 2.2.5 <= 2.2.5",
       "UiPath.System.Activities >= 20.10.4 <= 20.10.4",
       "UiPath.UIAutomation.Activities >= 20.10.9 <= 20.10.9"
     ]
@@ -5699,11 +5413,6 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[1.10.4, 1.10.4]"
-          },
-          "UiPath.SAP.BAPI.Activities": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[2.2.5, 2.2.5]"
           },
           "UiPath.System.Activities": {
             "include": "Runtime",

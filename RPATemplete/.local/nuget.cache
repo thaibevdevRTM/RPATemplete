@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0hewmKQ472vzi7Qmx0ddAXX7UfmLWesDQ/QaFFxQgsl8hx4u7/5ZvrWIBM778zDonOS6+Qi5WiqsfAcZlDoM+g==",
+  "dgSpecHash": "wZplQpwcveoXzKtOE+f3laNn3Pe6TCzSzSeNgg+SadRjwvmTtMVRJMrjNQUx8QwPEGK2T7cXIgwf3phFZtntsg==",
   "success": true,
   "projectFilePath": "D:\\Thaibev\\RPATemplete\\RPATemplete\\.local\\",
   "expectedPackageFiles": [
@@ -46,7 +46,7 @@
     "C:\\Users\\11035585\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\microsoft.rest.clientruntime.2.3.21.nupkg.sha512",
     "C:\\Users\\11035585\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071\\microsoft.visualstudio.ole.interop.7.10.6071.nupkg.sha512",
     "C:\\Users\\11035585\\.nuget\\packages\\mimekit\\2.10.0\\mimekit.2.10.0.nupkg.sha512",
-    "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\11035585\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\11035585\\.nuget\\packages\\nlog\\4.5.11\\nlog.4.5.11.nupkg.sha512",
     "C:\\Users\\11035585\\.nuget\\packages\\npoi\\2.4.1\\npoi.2.4.1.nupkg.sha512",
     "C:\\Users\\11035585\\.nuget\\packages\\portable.bouncycastle\\1.8.8\\portable.bouncycastle.1.8.8.nupkg.sha512",
@@ -73,7 +73,6 @@
     "C:\\Users\\11035585\\.nuget\\packages\\uipath.ocr.activities\\2.4.1\\uipath.ocr.activities.2.4.1.nupkg.sha512",
     "C:\\Users\\11035585\\.nuget\\packages\\uipath.ocr.contracts\\2.7.1\\uipath.ocr.contracts.2.7.1.nupkg.sha512",
     "C:\\Users\\11035585\\.nuget\\packages\\uipath.platform\\20.10.4\\uipath.platform.20.10.4.nupkg.sha512",
-    "C:\\Users\\11035585\\.nuget\\packages\\uipath.sap.bapi.activities\\2.2.5\\uipath.sap.bapi.activities.2.2.5.nupkg.sha512",
     "C:\\Users\\11035585\\.nuget\\packages\\uipath.system.activities\\20.10.4\\uipath.system.activities.20.10.4.nupkg.sha512",
     "C:\\Users\\11035585\\.nuget\\packages\\uipath.telemetry.client\\1.2.20\\uipath.telemetry.client.1.2.20.nupkg.sha512",
     "C:\\Users\\11035585\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\uipath.uiautomation.activities.20.10.9.nupkg.sha512",
